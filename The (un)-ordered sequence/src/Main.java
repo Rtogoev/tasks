@@ -22,7 +22,7 @@ class Main {
         }
         previous = next;
 
-        while (true) {
+        while (sorted) {
             current = scanner.nextInt();
             if (current == 0) {
                 break;
@@ -40,7 +40,6 @@ class Main {
                 }
             }
             sorted = false;
-            break;
         }
         System.out.println(sorted);
     }
